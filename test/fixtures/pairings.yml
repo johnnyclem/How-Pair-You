@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  from: 2014-04-28 15:22:53
+  till: 2014-04-28 15:22:53
+  student: MyString
+  teacher: MyString
+  repo: MyString
+
+two:
+  from: 2014-04-28 15:22:53
+  till: 2014-04-28 15:22:53
+  student: MyString
+  teacher: MyString
+  repo: MyString

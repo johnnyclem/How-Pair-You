@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>From:</strong>
+  <%= @pairing.from %>
+</p>
+
+<p>
+  <strong>Till:</strong>
+  <%= @pairing.till %>
+</p>
+
+<p>
+  <strong>Student:</strong>
+  <%= @pairing.student %>
+</p>
+
+<p>
+  <strong>Teacher:</strong>
+  <%= @pairing.teacher %>
+</p>
+
+<p>
+  <strong>Repo:</strong>
+  <%= @pairing.repo %>
+</p>
+
+<%= link_to 'Edit', edit_pairing_path(@pairing) %> |
+<%= link_to 'Back', pairings_path %>
